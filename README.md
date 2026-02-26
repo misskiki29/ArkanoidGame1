@@ -47,18 +47,6 @@ The game is structured using clear object-oriented principles and separation of 
 This modular structure ensures that rendering, physics, and game rules remain cleanly separated.
 
 ---
-
-## 🧠 Technical Highlights
-
-- Pure Java implementation  
-- Object-Oriented Design (OOP)  
-- Event-driven collision handling  
-- Encapsulation of game state  
-- Clear separation between logic and rendering  
-- Apache Ant build configuration  
-
-The project emphasizes maintainability, extensibility, and clean architectural decisions over quick fixes.
-
 ---
 
 ## 📂 Project Structure
@@ -85,7 +73,18 @@ ant run
 Or manually:
 javac -d bin src/**/*.java
 java -cp bin Game
+```
 
+## 🧠 Technical Highlights
+
+- Pure Java implementation  
+- Object-Oriented Design (OOP)  
+- Event-driven collision handling  
+- Encapsulation of game state  
+- Clear separation between logic and rendering  
+- Apache Ant build configuration  
+
+The project emphasizes maintainability, extensibility, and clean architectural decisions over quick fixes.
 🧠 Lessons Learned
 
 Building this Arkanoid implementation was not just about recreating a classic game — it was an exercise in designing clean, maintainable systems.
@@ -118,7 +117,7 @@ Improper state control leads to unpredictable behavior — structured counters p
 During development, quick fixes were tempting. Refactoring toward cleaner abstractions significantly improved readability and scalability.
 The project reinforced the long-term value of thoughtful system design.
 
-🚀 Possible Future Improvements
+##🚀 Possible Future Improvements
 
 Multiple levels with increasing difficulty
 Power-ups and special blocks
@@ -126,10 +125,12 @@ Sound effects and animations
 Start menu and end-game screens
 Refactoring into a more advanced game engine structure
 
-👩🏻‍💻 Author
+##👩🏻‍💻 Author
 
 Developed as part of a Computer Science coursework project with a focus on:
 Clean Object-Oriented Design
 Event-Driven Systems
 Game Loop Architecture
 Maintainable Code Structure
+
+
