@@ -47,20 +47,6 @@ The game is structured using clear object-oriented principles and separation of 
 This modular structure ensures that rendering, physics, and game rules remain cleanly separated.
 
 ---
----
-
-## 📂 Project Structure
-src/
-game/
-sprites/
-collisions/
-listeners/
-
-build.xml
-README.md
-.gitignore
-
----
 
 ## 🛠 How to Run
 
@@ -74,7 +60,6 @@ Or manually:
 javac -d bin src/**/*.java
 java -cp bin Game
 ```
-
 ## 🧠 Technical Highlights
 
 - Pure Java implementation  
@@ -117,7 +102,7 @@ Improper state control leads to unpredictable behavior — structured counters p
 During development, quick fixes were tempting. Refactoring toward cleaner abstractions significantly improved readability and scalability.
 The project reinforced the long-term value of thoughtful system design.
 
-##🚀 Possible Future Improvements
+## 🚀 Possible Future Improvements
 
 Multiple levels with increasing difficulty
 Power-ups and special blocks
@@ -125,12 +110,13 @@ Sound effects and animations
 Start menu and end-game screens
 Refactoring into a more advanced game engine structure
 
-##👩🏻‍💻 Author
+## 👩🏻‍💻 Author
 
 Developed as part of a Computer Science coursework project with a focus on:
 Clean Object-Oriented Design
 Event-Driven Systems
 Game Loop Architecture
 Maintainable Code Structure
+
 
 
